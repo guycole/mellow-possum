@@ -4,8 +4,8 @@ case "$1" in
     configure)
 	echo "xxx xxx configure xxx xxx"
 
-        chown mellow:mellow .bash_aliases
-        chown -R mellow:mellow Documents
+        chown mellow:mellow /home/mellow/.bash_aliases
+        chown -R mellow:mellow /home/mellow/Documents
 
         ;;
 
