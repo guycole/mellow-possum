@@ -1,0 +1,10 @@
+Package: mellow
+Architecture: all
+Version: 1.0
+Essential: no
+Priority: optional
+Section: misc
+Maintainer: guycole <guycole@gmail.com>
+Standards-Version: 4.7.0
+Description: base mellow install
+Depends: cmake,git,libusb-1.0-0-dev,uuid-runtime,virtualenv
