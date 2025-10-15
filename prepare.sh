@@ -1,3 +1,4 @@
+dpkg-deb --build mellow_package_1.0_all
 dpkg-scanpackages --multiversion . > Packages
 gzip -k -f Packages
 apt-ftparchive release . > Release

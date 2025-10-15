@@ -3,12 +3,9 @@
 case "$1" in
     configure)
 	echo "xxx xxx configure xxx xxx"
-	
-	if test -f "/home/mellow/.bash_aliases"; then
-	    echo "Path exists."
-	else
-            echo "Path does not exist."
-	fi
+
+        chown mellow:mellow .bash_aliases
+        chown -R mellow:mellow Documents
 
         ;;
 
