@@ -1,0 +1,24 @@
+#!/bin/sh -e
+
+case "$1" in
+    configure)
+	echo "xxx xxx configure xxx xxx"
+	
+	if test -f "/home/mellow/.bash_aliases"; then
+	    echo "Path exists."
+	else
+            echo "Path does not exist."
+	fi
+
+        ;;
+
+    abort-install|abort-upgrade|abort-deconfigure)
+        ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+        ;;
+esac
+
+exit 0
