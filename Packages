@@ -1,0 +1,16 @@
+Package: mellow
+Version: 1.0
+Architecture: all
+Essential: no
+Maintainer: guycole <guycole@gmail.com>
+Depends: cmake,git,libusb-1.0-0-dev,uuid-runtime,virtualenv
+Filename: ./apt/pool/main/m/mellow/mellow_1.0_all.deb
+Size: 1678
+MD5sum: 37edb173060972b570ba172eae6b0a2a
+SHA1: 341581f6f06b127336d05b9044e6a5fa6712b2d0
+SHA256: f55aa27e0e7f0536af2c7d2d1a9977dd1fd48ce77b3d047c14fad855ca111e37
+Section: misc
+Priority: optional
+Description: base mellow install
+Standards-Version: 4.7.0
+
