@@ -1,6 +1,6 @@
 name: mellow package
 
-run-name: ${{ github.actor }} is testing out GitHub Actions
+run-name: ${{ github.actor }} building debian packages
 
 on: [push]
 
@@ -20,5 +20,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
-      - run: dpkg-deb --build ./mellow_package_1.0_all
+      - run: dpkg-deb --build 
 
