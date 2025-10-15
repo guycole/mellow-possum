@@ -5,10 +5,10 @@ Essential: no
 Maintainer: guycole <guycole@gmail.com>
 Depends: cmake,git,libusb-1.0-0-dev,uuid-runtime,virtualenv
 Filename: ./mellow_package_1.0_all.deb
-Size: 1676
-MD5sum: a15417d549478bdbf860eecfbd3f27f7
-SHA1: cce7b71d533e0b874c6a88f528cdd7fb7c69f72c
-SHA256: ac08fc09989912c94c7efe8bef5369bf6d0d58bccf1719673d5a1aeb6d55f90e
+Size: 2080
+MD5sum: 4c6dd7a7ccaf9fe4fab776cb9a9746da
+SHA1: 115be43ed460ec1760f7cbaf0317133891448733
+SHA256: 0cd936067cde83292bec6fc4103d253080d8bfef28abf0420842771c8a9a6330
 Section: misc
 Priority: optional
 Description: base mellow install
