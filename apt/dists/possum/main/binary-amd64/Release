@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Mellow Possum Repo
+Label: Mellow Possum Repo
+Architecture: amd64
+Description: Mellow Possum APT repository
