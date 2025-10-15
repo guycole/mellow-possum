@@ -1,7 +1,0 @@
-Origin: Mellow Possum Repo
-Label: Mellow Possum Repo
-Suite: stable
-Codename: possum
-Architectures: amd64 arm64
-Components: main
-Description: Mellow Possum APT repository
