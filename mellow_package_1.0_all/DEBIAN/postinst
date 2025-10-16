@@ -6,6 +6,7 @@ case "$1" in
 
         chown mellow:mellow /home/mellow/.bash_aliases
         chown -R mellow:mellow /home/mellow/Documents
+        chown -R mellow:mellow /var/mellow
 
         ;;
 
